@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="main">
+
+    <!-- block table -->
+    <div class="block__table">
+      <div class="block--title">Table:</div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Full name</th>
+            <th>Age</th>
+            <th>Job title</th>
+            <th>Favorite meal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Corey Ander</td>
+            <td>26</td>
+            <td>Restaurant manager</td>
+            <td>Tagine</td>
+          </tr>
+          <tr>
+            <td>Kerry Oki</td>
+            <td>42</td>
+            <td>Sound Engineer</td>
+            <td>Shepherd's pie</td>
+          </tr>
+          <tr>
+            <td>Levy Tate</td>
+            <td>32</td>
+            <td>Therapist</td>
+            <td>Chocolate brownie</td>
+          </tr>
+          <tr>
+            <td>Miles A.Head</td>
+            <td>34</td>
+            <td>Mechanic</td>
+            <td>Pizza</td>
+          </tr>
+          <tr>
+            <td>Upton O.Goode</td>
+            <td>59</td>
+            <td>Counselor</td>
+            <td>mac 'n' chease</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- end block table -->
+
+    <!-- block form -->
+    <div class="block__form">
+      <div class="block--title">Form:</div>
+      <div class="block__form-register">
+        <div class="form-register--title">Đăng ký thành viên</div>
+        <table class="form-register__table">
+          <thead>
+            <tr>
+              <th>Nội dung</th>
+              <th>Giá trị</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Họ và tên:</td>
+              <td>
+                <input type="text" name="" id="">
+              </td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>
+                <input type="email" name="" id="">
+              </td>
+            </tr>
+            <tr>
+              <td>Mật khẩu:</td>
+              <td>
+                <input type="password" name="" id="">
+              </td>
+            </tr>
+            <tr>
+              <td>Avatar:</td>
+              <td>
+                <input type="file" name="" id="">
+              </td>
+            </tr>
+            <tr>
+              <td>Số điện thoại:</td>
+              <td>
+                <input type="tel" name="" id="">
+              </td>
+            </tr>
+            <tr>
+              <td>Tuổi:</td>
+              <td class="age"> 
+                <input type="number" name="" id="" min="0">
+              </td>
+            </tr>
+            <tr>
+              <td>Giới tính:</td>
+              <td class="gender">
+                <label class="">
+                  <input type="radio" name="" id="" >
+                  Nam
+                </label>
+                <label class="">
+                  <input type="radio" name="" id="" checked>
+                  Nữ
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>Sở thích:</td>
+              <td class="interests">
+                <label class="active">
+                  <input type="checkbox" name="" id="" checked>
+                  Đá bóng
+                </label>
+                <label class="">
+                  <input type="checkbox" name="" id="" checked>
+                  Cầu lông
+                </label>
+                <label class="">
+                  <input type="checkbox" name="" id="" checked>
+                  Đua thuyền
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>Ghi chú:</td>
+              <td>
+                <textarea name="" id="" cols="" rows="2" placeholder="Buổi học đầu tiên về HTML"></textarea>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button type="submit" class="form-register__submit">Đăng ký</button>
+      </div>
+    </div>
+    <!-- end block form -->
+  </div>
+
+</body>
+</html>

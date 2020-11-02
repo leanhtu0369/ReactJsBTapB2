@@ -1,0 +1,97 @@
+
+main {
+  text-transform: capitalize;
+}
+table {
+  border-spacing: 0;
+}
+
+.block--title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.block__table {
+  margin: auto;
+  font-size: 20px;
+  background: #eeeeee;
+  width: 860px;
+  padding: 40px;
+}
+.table {
+  width: 100%;
+  box-shadow: 0 3px 6px #ccc;
+}
+
+.table thead tr {
+  text-align: center;
+}
+
+.table tr {
+  background: #fff;
+}
+.table tbody tr:nth-child(2n) {
+  
+}
+.table tbody tr:nth-child(2n + 1) {
+  background: #f9faff;
+}
+
+.table tr th,
+.table tr td {
+  padding: 15px 20px;
+}
+
+
+.block__form {
+
+}
+.block__form-register {
+  margin: auto;
+  width: 750px;
+}
+.form-register--title {
+  font-size: 56px;
+  font-weight: 700;
+  background: #387d22;
+}
+
+.form-register__table {
+  width: 680px;
+  margin: 45px auto 5px;
+  border: 1px solid #2e2e2e;
+  font-size: 18px;
+  font-weight: 500;
+}
+.form-register__table th,
+.form-register__table td {
+  padding: 15px 10px;  
+  border: 1px solid #787878;
+}
+.form-register__table th {
+  font-size: 20px;
+  font-weight: 700;
+}
+.form-register__table td {
+  
+}
+
+.form-register__table td.age {
+  
+}
+.form-register__table td.interests label,
+.form-register__table td.gender label {
+  display: block;
+}
+.form-register__table textarea::placeholder {
+  color: #000;
+}
+
+.form-register__submit {
+  margin-left: calc((750px - 680px) / 2);
+}
+
